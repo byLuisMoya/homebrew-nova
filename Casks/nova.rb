@@ -1,6 +1,6 @@
 cask "nova" do
-  version "1.1"
-  sha256 "93b2aa4529d5f4d7af99ac2ad3bbf3d15fcd4db40591f0aa91adb733d15580d9"
+  version "1.2"
+  sha256 "517ee9012263421ed3257d7dcc749e936f61ef54dca5750d0b5d11672fcd7e73"
 
   url "https://github.com/byLuisMoya/Nova/releases/download/v#{version}/Nova-#{version}.zip"
   name "Nova"
