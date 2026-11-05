@@ -1,6 +1,6 @@
 cask "nova" do
-  version "1.4"
-  sha256 "6935f629dd839536e60748187eb6fead2e23ea35b3eb1ba66378a6db05c0ace4"
+  version "1.5"
+  sha256 "ec882f031585f6c48608b787822fcd07934386c55045757770ecbf01731dbbef"
 
   url "https://github.com/byLuisMoya/Nova/releases/download/v#{version}/Nova-#{version}.zip"
   name "Nova"
@@ -21,6 +21,7 @@ cask "nova" do
   end
 
   zap trash: [
+    "~/Library/Application Support/Nova",
     "~/Library/LaunchAgents/io.github.byluismoya.Nova.plist",
     "~/Library/Preferences/io.github.byluismoya.Nova.plist",
   ]
